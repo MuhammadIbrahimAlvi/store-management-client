@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-button {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
