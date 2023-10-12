@@ -1,0 +1,9 @@
+.sign-in-class{
+    margin: 0 auto;
+    margin-top: 5%;
+    width:60%;
+    line-height: 2;
+    padding: 1%;
+    border: 1px dotted gray;
+    background: whitesmoke;
+  }

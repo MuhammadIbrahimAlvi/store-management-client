@@ -1,32 +1,6 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-.navbar-button {
-    margin-right: 10px; /* Adjust the margin as needed */
-}
-
-.product-class{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    order: 3;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    justify-content: space-evenly;
-    background-color: white;
-    border: 5px solid transparent;
-}
-
-
-/* footer styling */
-
-
-  
   .footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     background: #3586ff;
     min-height: 100px;
@@ -36,6 +10,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 15%;
+
   }
   
   .social-icon,
@@ -140,4 +115,10 @@
     100% {
       background-positon-x: 0px;
     }
+  }
+
+  .sign-in-class{
+    margin: 0 auto;
+    margin-top: 12%;
+    width: 20%;
   }
