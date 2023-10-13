@@ -7,3 +7,7 @@
     border: 1px dotted gray;
     background: whitesmoke;
   }
+
+  #errorAlert{
+    display: none;
+  }
