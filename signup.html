@@ -15,6 +15,7 @@
 
 <body>
     <main>
+        <!-- NAVBAR ON SIGNUPPAGE -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Store Commerce</a>
@@ -35,12 +36,14 @@
                 </div>
             </div>
         </nav>
+
+        <!-- SIGNUP FORM ON SIGNUPPAGE -->
         <div class="sign-in-class">
             <div class="alert alert-warning alert-dismissible fade show" role="alert" id="errorAlert">
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
+            </div>
             <form id="signUpForm">
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -57,7 +60,8 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword4">Confirm Password</label>
-                        <input type="password" class="form-control" id="inputconfirmPassword4" placeholder="Confirm Password">
+                        <input type="password" class="form-control" id="inputconfirmPassword4"
+                            placeholder="Confirm Password">
                     </div>
                 </div>
                 <div class="form-group">
@@ -82,6 +86,8 @@
                 <button type="submit" class="btn btn-primary">Sign in</button>
             </form>
         </div>
+
+        <!-- FOOTER ON SIGNUPPAGE -->
         <footer class="footer">
             <div class="waves">
                 <div class="wave" id="wave1"></div>
@@ -128,7 +134,7 @@
 
 </body>
 
-<script src="app.js"></script>
+<script type="module" src="signup.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
